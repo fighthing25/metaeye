@@ -1,0 +1,8 @@
+/target
+**/*.rs.bk
+Cargo.lock
+settings.json
+clipboard.json
+tasks.json
+*.log
+# rename file ini menjadi .gitignore setelah download
