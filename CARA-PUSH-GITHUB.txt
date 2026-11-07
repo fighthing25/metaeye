@@ -1,17 +1,9 @@
-CARA PUSH KE GITHUB (2 menit):
-1. Extract zip ini
-2. Buka terminal di folder venom-island
-3. git init
-   git add .
-   git commit -m "feat: Venom Island v1.0"
-   git branch -M main
-   git remote add origin https://github.com/USERNAME-KAMU/venom-island.git
-   git push -u origin main
-4. Atau upload via web github.com > New repository > Upload files
+git init
+git add .
+git commit -m "fix: 7 compile errors"
+git branch -M main
+git remote add origin https://github.com/USERNAME-KAMU/venom-island.git
+git push -u origin main
 
-CARA JALANKAN:
-- Windows: winget install Rustlang.Rustup  lalu  cargo run --release
-- EXE: cargo build --release  -> target/release/venom-island.exe
-
-File github-workflows/build.yml -> pindahkan ke .github/workflows/build.yml agar CI jalan.
-File gitignore.txt -> rename jadi .gitignore
+Jalankan: cargo run --release
+Build: cargo build --release

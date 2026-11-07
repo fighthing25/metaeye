@@ -1,0 +1,4 @@
+/target
+settings.json
+tasks.json
+clipboard.json

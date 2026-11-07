@@ -2,20 +2,19 @@
 name = "venom-island"
 version = "1.0.0"
 edition = "2021"
-description = "Venom Island - Dynamic Island untuk Windows: kapsul hitam, wajah Venom, musik, jadwal shalat, kalender Jawa/Hijriah, clipboard, rak file, sambung HP, teleprompter."
+description = "Venom Island - Dynamic Island untuk Windows"
 authors = ["Venom Island"]
 license = "MIT"
-repository = "https://github.com/username/venom-island"
 
 [dependencies]
 eframe = "0.27"
 egui = "0.27"
-chrono = { version = "0.4", features = ["serde"] }
+chrono = "0.4"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 sysinfo = "0.30"
 arboard = "2.0"
-ureq = { version = "2.10", features = ["json"] }
+ureq = "2.10"
 qrcode = "0.13"
 rfd = "0.14"
 
