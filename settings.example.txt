@@ -1,1 +1,0 @@
-{"theme_color":[168,85,247,255],"transparency":0.92,"cursor_sensitivity":1.0,"animations":true,"retro_sound":true,"show_jawa":true,"show_hijri":true,"prayer_notif":true,"start_with_windows":false,"city":"Semarang","addons_prayer":true,"addons_traffic":true,"gaming_mode":false,"always_on_top":true,"download_folder":"Downloads"}
